@@ -6,10 +6,6 @@ package main;
 
 import presentacion.pantallaOpcionInvAnfi;
 
-/**
- *
- * @author ldoar
- */
 public class ProyectoArquitecturaPatolli {
 
     /**
