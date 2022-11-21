@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package DAO;
+package dominio;
 
 /**
  *
- * @author Hp
+ * @author NALLELY, RICARDO, JOAQUIN
  */
-public class Invitado extends Jugador{
+public class Anfiltrion extends Jugador{
 
-    public Invitado() {
+    public Anfiltrion() {
     }
 
-    public Invitado(String nombre, String idJugador, int fondo) {
+    public Anfiltrion(String nombre, String idJugador, int fondo) {
         super(nombre, idJugador, fondo);
     }
 
