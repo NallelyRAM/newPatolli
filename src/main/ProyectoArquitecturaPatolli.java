@@ -4,6 +4,7 @@
  */
 package main;
 
+import conexion.conexionBD;
 import presentacion.pantallaOpcionInvAnfi;
 
 public class ProyectoArquitecturaPatolli {
@@ -11,8 +12,24 @@ public class ProyectoArquitecturaPatolli {
     /**
      * @param args the command line arguments
      */
-//    public static void main(String[] args) {
-//        pantallaOpcionInvAnfi juego = new pantallaOpcionInvAnfi();
-//    }
+    public static void main(String[] args) {
+
+        //Da error porque el constructor que posee la clase conexionBD es privado
+        //conexionBD conecion = new conexionBD();
+        
+        //Manera correcta de crear instancias para conectar a la base de datos
+        conexionBD con = conexionBD.getInstance();
+        con.conectar();
+        
+        if (con != null) {
+            System.out.println("Conexion creada");
+            
+        }else{
+            System.out.println("No");
+        }
+        
+        
+        
+    }//Main
     
 }
