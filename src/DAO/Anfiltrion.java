@@ -6,7 +6,7 @@ package DAO;
 
 /**
  *
- * @author Hp
+ * @author NALLELY, RICARDO, JOAQUIN
  */
 public class Anfiltrion extends Jugador{
 
