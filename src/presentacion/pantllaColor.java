@@ -22,13 +22,13 @@ public class pantllaColor extends javax.swing.JFrame {
 
         btnGrupoRadio = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
-        Rosa = new javax.swing.JLabel();
         Amarillo = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         imgPatolli = new javax.swing.JLabel();
         imgPatolli2 = new javax.swing.JLabel();
         btnUnirse = new javax.swing.JButton();
         btnVerde = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         btnRojo = new javax.swing.JButton();
         Fondo = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
@@ -36,9 +36,6 @@ public class pantllaColor extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Rosa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frosa.png"))); // NOI18N
-        jPanel1.add(Rosa, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 210, -1, -1));
 
         Amarillo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/famarillo.png"))); // NOI18N
         jPanel1.add(Amarillo, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, -1, -1));
@@ -73,8 +70,12 @@ public class pantllaColor extends javax.swing.JFrame {
         btnVerde.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/fverde.png"))); // NOI18N
         jPanel1.add(btnVerde, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 70, 80));
 
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frosa.png"))); // NOI18N
+        jButton1.setActionCommand("btnRosa");
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 227, 70, 70));
+
         btnRojo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frojo.png"))); // NOI18N
-        jPanel1.add(btnRojo, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 130, 70, 60));
+        jPanel1.add(btnRojo, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 120, 80, 70));
 
         Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/fondoa.png"))); // NOI18N
         jPanel1.add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 0, -1, -1));
@@ -145,13 +146,13 @@ public class pantllaColor extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Amarillo;
     private javax.swing.JLabel Fondo;
-    private javax.swing.JLabel Rosa;
     private javax.swing.ButtonGroup btnGrupoRadio;
     private javax.swing.JButton btnRojo;
     private javax.swing.JButton btnUnirse;
     private javax.swing.JButton btnVerde;
     private javax.swing.JLabel imgPatolli;
     private javax.swing.JLabel imgPatolli2;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
