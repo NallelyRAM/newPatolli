@@ -22,7 +22,6 @@ public class pantllaColor extends javax.swing.JFrame {
 
         btnGrupoRadio = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
-        Amarillo = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         imgPatolli = new javax.swing.JLabel();
         imgPatolli2 = new javax.swing.JLabel();
@@ -30,15 +29,12 @@ public class pantllaColor extends javax.swing.JFrame {
         btnVerde = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         btnRojo = new javax.swing.JButton();
-        Fondo = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
+        Fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Amarillo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/famarillo.png"))); // NOI18N
-        jPanel1.add(Amarillo, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("OCR A Extended", 3, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -77,11 +73,12 @@ public class pantllaColor extends javax.swing.JFrame {
         btnRojo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frojo.png"))); // NOI18N
         jPanel1.add(btnRojo, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 120, 80, 70));
 
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/famarillo.png"))); // NOI18N
+        jButton2.setActionCommand("btnAmarillo");
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, 80, -1));
+
         Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/fondoa.png"))); // NOI18N
         jPanel1.add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 0, -1, -1));
-
-        jButton2.setText("jButton2");
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 150, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -144,7 +141,6 @@ public class pantllaColor extends javax.swing.JFrame {
 //    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Amarillo;
     private javax.swing.JLabel Fondo;
     private javax.swing.ButtonGroup btnGrupoRadio;
     private javax.swing.JButton btnRojo;
